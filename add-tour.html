@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+
+
+<!-- Mirrored from themesflat.co/html/vitour/add-tour.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 31 Dec 2024 13:48:06 GMT -->
+<head>
+    <meta charset="utf-8">
+    <title>Vitour - Travel & Tour Booking HTML Template</title>
+
+    <meta name="author" content="themesflat.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link rel="stylesheet" href="app/css/app.css">
+    <link rel="stylesheet" href="app/css/map.min.css">
+
+    <!-- Favicon and Touch Icons  -->
+    <link rel="shortcut icon" href="assets/images/favico.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/images/favico.png">
+
+</head>
+
+<body class="body header-fixed ">
+
+    <div class="preload preload-container">
+        <svg class="pl" width="240" height="240" viewBox="0 0 240 240">
+            <circle class="pl__ring pl__ring--a" cx="120" cy="120" r="105" fill="none" stroke="#000" stroke-width="20" stroke-dasharray="0 660" stroke-dashoffset="-330" stroke-linecap="round"></circle>
+            <circle class="pl__ring pl__ring--b" cx="120" cy="120" r="35" fill="none" stroke="#000" stroke-width="20" stroke-dasharray="0 220" stroke-dashoffset="-110" stroke-linecap="round"></circle>
+            <circle class="pl__ring pl__ring--c" cx="85" cy="120" r="70" fill="none" stroke="#000" stroke-width="20" stroke-dasharray="0 440" stroke-linecap="round"></circle>
+            <circle class="pl__ring pl__ring--d" cx="155" cy="120" r="70" fill="none" stroke="#000" stroke-width="20" stroke-dasharray="0 440" stroke-linecap="round"></circle>
+        </svg>
+    </div>
+
+    <!-- /preload -->
+
+    <div id="wrapper">
+
+        <div id="pagee" class="clearfix">
+
+            <div class="sidebar-dashboard">
+                <div class="db-logo">
+                    <a href="index.html"><img src="assets/images/favico.png" alt="Logo"><span>Vitour</span></a>
+                </div>
+                <div class="db-menu">
+                    <ul>
+                        <li>
+                            <a href="dashboard.html">
+                                <i class="icon-Vector-9"></i>
+                                <span>Dashboard</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="my-booking.html">
+                                <i class="icon-Layer-2"></i>
+                                <span>My Booking</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="my-listing.html">
+                                <i class="icon-Group-81"></i>
+                                <span>My Listing</span>
+                            </a>
+                        </li>
+                        <li class="active">
+                            <a href="add-tour.html">
+                                <i class="icon-Group-91"></i>
+                                <span>Add Tour</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="my-favorite.html">
+                                <i class="icon-Vector-10"></i>
+                                <span>My Favorites</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="my-profile.html">
+                                <i class="icon-profile-user-1"></i>
+                                <span>My Profile</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="login.html">
+                                <i class="icon-turn-off-1"></i>
+                                <span>Logout</span>
+                            </a>
+                        </li>
+
+                    </ul>
+
+
+                </div>
+
+            </div>
+
+            <div class="has-dashboard">
+                <!-- Main Header -->
+                <header class="main-header flex">
+                    <!-- Header Lower -->
+                    <div id="header">
+
+                        <div class="header-dashboard">
+                            <div class="tf-container full">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="inner-container flex justify-space align-center">
+                                            <!-- Logo Box -->
+                                            <div class="header-search flex-three">
+                                                <div class="icon-bars">
+                                                    <i class="icon-Vector3"></i>
+                                                </div>
+                                                <form action="https://themesflat.co/" class="search-dashboard">
+                                                    <i class="icon-Vector5"></i>
+                                                    <input type="search" placeholder="Search tours">
+                                                </form>
+
+                                            </div>
+
+                                            <div class="nav-outer flex align-center">
+                                                <!-- Main Menu -->
+                                                <nav class="main-menu show navbar-expand-md">
+                                                    <div class="navbar-collapse collapse clearfix"
+                                                        id="navbarSupportedContent">
+                                                        <ul class="navigation clearfix">
+                                                            <li class="dropdown2">
+                                                                <a href="#">Home</a>
+                                                                <ul>
+                                                                    <li><a href="index.html">Home Page 01</a></li>
+                                                                    <li><a href="home2.html">Home Page 02</a></li>
+                                                                    <li><a href="home3.html">Home Page 03</a></li>
+                                                                    <li><a href="home4.html">Home Page 04</a></li>
+                                                                    <li><a href="home5.html">Home Page 05</a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li class="dropdown2">
+                                                                <a href="#">Tour</a>
+                                                                <ul>
+                                                                    <li><a href="archieve-tour.html">Archieve tour</a>
+
+                                                                    </li>
+                                                                    <li><a href="tour-package-v2.html">Tour left
+                                                                            sidebar</a>
+
+                                                                    </li>
+                                                                    <li><a href="tour-package-v4.html">Tour package </a>
+
+                                                                    </li>
+                                                                    <li><a href="tour-single.html">Tour Single </a>
+
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                            <li class="dropdown2"><a href="#">Destination</a>
+                                                                <ul>
+                                                                    <li><a href="tour-destination-v1.html">Destination
+                                                                            V1</a></li>
+                                                                    <li><a href="tour-destination-v2.html">Destination
+                                                                            V2</a></li>
+                                                                    <li><a href="tour-destination-v3.html">Destination
+                                                                            V3</a></li>
+                                                                    <li><a href="single-destination.html">Destination
+                                                                            Single</a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li class="dropdown2 "><a href="#">Blog</a>
+                                                                <ul>
+                                                                    <li><a href="blog.html">Blog</a></li>
+                                                                    <li><a href="blog-details.html">Blog Detail</a></li>
+                                                                </ul>
+                                                            </li>
+
+                                                            <li class="dropdown2"><a href="#">Pages</a>
+                                                                <ul>
+                                                                    <li><a href="about-us.html">About Us</a></li>
+                                                                    <li><a href="team.html">Team member</a></li>
+                                                                    <li><a href="gallery.html">Gallery</a></li>
+                                                                    <li><a href="terms-condition.html">Terms &
+                                                                            Condition</a></li>
+                                                                    <li><a href="help-center.html">Help center</a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li class="dropdown2 current"><a href="#">Dashboard</a>
+                                                                <ul>
+                                                                    <li><a href="dashboard.html">Dashboard </a></li>
+                                                                    <li><a href="my-booking.html">My booking</a></li>
+                                                                    <li><a href="my-listing.html">My Listing</a></li>
+                                                                    <li class="current"><a href="add-tour.html">Add
+                                                                            Tour</a></li>
+                                                                    <li><a href="my-favorite.html">My Favorites</a></li>
+                                                                    <li><a href="my-profile.html">My profile</a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="contact-us.html">Contact</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </nav>
+                                                <!-- Main Menu End-->
+                                            </div>
+                                            <div class="header-account flex align-center">
+                                                <div class="dropdown notification">
+                                                    <a class="icon-notification" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                        <i class="icon-notification-1"></i>
+                                                    </a>
+                                                    <ul class="dropdown-menu">
+                                                      <li>
+                                                        <div class="message-item  flex-three">
+                                                            <div class="image">
+                                                                <i class="icon-26"></i>
+                                                            </div>
+                                                            <div>
+                                                                <div class="body-title">Discount available</div>
+                                                                <div class="text-tiny">Morbi sapien massa, ultricies at rhoncus at, ullamcorper nec diam</div>
+                                                            </div>
+                                                        </div>
+                                                      </li>
+                                                      <li>
+                                                        <div class="message-item  flex-three">
+                                                            <div class="image">
+                                                                <i class="icon-26"></i>
+                                                            </div>
+                                                            <div>
+                                                                <div class="body-title">Discount available</div>
+                                                                <div class="text-tiny">Morbi sapien massa, ultricies at rhoncus at, ullamcorper nec diam</div>
+                                                            </div>
+                                                        </div>
+                                                      </li>
+                                                      <li>
+                                                        <div class="message-item  flex-three">
+                                                            <div class="image">
+                                                                <i class="icon-26"></i>
+                                                            </div>
+                                                            <div>
+                                                                <div class="body-title">Discount available</div>
+                                                                <div class="text-tiny">Morbi sapien massa, ultricies at rhoncus at, ullamcorper nec diam</div>
+                                                            </div>
+                                                        </div>
+                                                      </li>
+                                                      
+                                                    </ul>
+                                                </div> 
+                                                <div class="dropdown account">
+                                                    <a type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                        <img src="assets/images/page/avata.jpg" alt="image">
+                                                    </a>
+                                                    <ul class="dropdown-menu">
+                                                      <li><a  href="#">Account</a></li>
+                                                      <li><a  href="#">Setting</a></li>
+                                                      <li><a  href="#">Support</a></li>
+                                                      <li><a  href="login.html">Logout</a></li>
+                                                    </ul>
+                                                </div> 
+                                                <div class="mobile-nav-toggler mobile-button">
+                                                    <i class="icon-bar"></i>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- End Header Lower -->
+
+
+                    <!-- Mobile Menu  -->
+                    <div class="close-btn"><span class="icon flaticon-cancel-1"></span></div>
+                    <div class="mobile-menu">
+                        <div class="menu-backdrop"></div>
+                        <nav class="menu-box">
+                            <div class="nav-logo"><a href="index.html">
+                                    <img src="assets/images/logo2.png" alt=""></a></div>
+                            <div class="bottom-canvas">
+                                <div class="menu-outer">
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <!-- End Mobile Menu -->
+
+                </header>
+                <!-- End Main Header -->
+                <main id="main">
+                    <section class="profile-dashboard">
+                        <div class="inner-header mb-40">
+                            <h3 class="title">Add Tour</h3>
+                            <p class="des">There are many variations of passages of Lorem Ipsum</p>
+                        </div>
+                        <form action="https://themesflat.co/" id="form-add-tour" class="form-add-tour">
+                            <div class="widget-dash-board pr-256 mb-75">
+                                <h4 class="title-add-tour mb-30">1. information</h4>
+                                <div class="grid-input-2 mb-45">
+                                    <div class="input-wrap">
+                                        <label>Enter your tittle</label>
+                                        <input type="text" placeholder="Switzerland city tour">
+                                    </div>
+                                    <div class="input-wrap">
+                                        <label>Enter your tittle</label>
+                                        <div class="nice-select" tabindex="0">
+                                            <span class="current">Catagory</span>
+                                            <ul class="list">
+                                                <li data-value="" class="option selected focus">Catagory</li>
+                                                <li data-value="category 1" class="option">Catagory 1</li>
+                                                <li data-value="category 2" class="option">Catagory 2</li>
+                                                <li data-value="category 3" class="option">Catagory 3</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="input-wrap mb-45">
+                                    <label>Enter Keyword</label>
+                                    <input type="text" placeholder="Keyword">
+                                </div>
+                                <div class="input-wrap mb-45">
+                                    <label>Description</label>
+                                    <textarea name="description" rows="12" cols="50"
+                                        placeholder="Write content"></textarea>
+                                </div>
+                                <div class="input-wrap">
+                                    <label>Upload Photo</label>
+                                    <div class="upload-image-add-car mb-30">
+                                        <div class="upload-image">
+                                            <label for="photoLoad" class="uploadLabel">
+                                                <i class="icon-Group-10"></i>
+                                                <span>Add a Photo</span>
+                                                <input type="file" id="photoLoad" class="photoLoad" accept="image/*">
+                                            </label>
+                                        </div>
+                                        <div class="upload-image">
+                                            <label for="photoLoad1" class="uploadLabel">
+                                                <i class="icon-Group-10"></i>
+                                                <span>Add a Photo</span>
+                                                <input type="file" id="photoLoad1" class="photoLoad" accept="image/*">
+                                            </label>
+                                        </div>
+                                        <div class="upload-image">
+                                            <label for="photoLoad2" class="uploadLabel">
+                                                <i class="icon-Group-10"></i>
+                                                <span>Add a Photo</span>
+                                                <input type="file" id="photoLoad2" class="photoLoad" accept="image/*">
+                                            </label>
+                                        </div>
+                                        <div class="upload-image">
+                                            <label for="photoLoad3" class="uploadLabel">
+                                                <i class="icon-Group-10"></i>
+                                                <span>Add a Photo</span>
+                                                <input type="file" id="photoLoad3" class="photoLoad" accept="image/*">
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <p><span class="text-main">*</span>Supported <span class="text-main">Png</span> &
+                                        Jpg Not more than 2 Mb</p>
+                                </div>
+
+                            </div>
+                            <div class="widget-dash-board pr-256 mb-75">
+                                <h4 class="title-add-tour mb-30">2. Tour Planing</h4>
+
+                                <div class="input-wrap mb-45">
+                                    <div class="flex-two mb-70">
+                                        <input type="text" placeholder="Enter Tittle">
+                                        <div class="icon-delete-title flex-five">
+                                            <i class="icon-delete-1"></i>
+                                        </div>
+                                    </div>
+                                    <textarea class="textarea-tinymce" name="area"></textarea>
+
+                                </div>
+                                <div class="input-wrap text-end">
+                                    <button type="button" class="button-add"> <i class="icon-uniE914"></i>Add</button>
+
+                                </div>
+
+
+                            </div>
+                            <div class="widget-dash-board pr-256 mb-75">
+                                <h4 class="title-add-tour mb-30">2. Location</h4>
+                                <div class="grid-input-2 mb-45">
+                                    <div class="input-wrap">
+                                        <label>Select City</label>
+                                        <div class="nice-select" tabindex="0">
+                                            <span class="current">London</span>
+                                            <ul class="list">
+                                                <li data-value="" class="option selected focus">London</li>
+                                                <li data-value="tokyo" class="option">Tokyo</li>
+                                                <li data-value="hanoi" class="option">Ha noi</li>
+                                                <li data-value="taiwan" class="option">Taiwan</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="input-wrap">
+                                        <label>Select State</label>
+                                        <div class="nice-select" tabindex="0">
+                                            <span class="current">state</span>
+                                            <ul class="list">
+                                                <li data-value="" class="option selected focus">state</li>
+                                                <li data-value="category 1" class="option">state 1</li>
+                                                <li data-value="category 2" class="option">state 2</li>
+                                                <li data-value="category 3" class="option">state 3</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="input-wrap mb-40">
+                                    <label>Address Details</label>
+                                    <div class="flex-two ">
+                                        <input type="text" placeholder="2464 Royal Ln. Mesa, New Jersey 45463">
+                                        <div class="icon-delete-title flex-five">
+                                            <i class="icon-Vector5"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="input-wrap mb-40">
+                                    <div class="map3 relative">
+                                        <div id="map3"></div>
+                                    </div>
+
+                                </div>
+                                <div class="grid-input-2 mb-45">
+                                    <div class="input-wrap">
+                                        <label>Zip Code</label>
+                                        <input type="text" placeholder="3462">
+                                    </div>
+                                    <div class="input-wrap">
+                                        <label>Country</label>
+                                        <input type="text" placeholder="United Kingdom">
+                                    </div>
+                                </div>
+                                <div class="input-wrap ">
+                                    <button type="button" class="button-add"> Save changes </button>
+
+                                </div>
+
+
+                            </div>
+                            <div class="widget-dash-board pr-256 mb-75">
+                                <h4 class="title-add-tour mb-30">2. What’s Include?</h4>
+                                <div class="row mb-60">
+                                    <div class="col-lg-3">
+                                        <div class="checkbox">
+                                            <input id="check" type="checkbox" name="check" value="check">
+                                            <label for="check">Laundry Service</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <input id="check1" type="checkbox" name="check" value="check">
+                                            <label for="check1">Food & Drinks</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <input id="check2" type="checkbox" name="check" value="check">
+                                            <label for="check2">Swimming Pool</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <input id="check3" type="checkbox" name="check" value="check">
+                                            <label for="check3">Alarm System</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <input id="check4" type="checkbox" name="check" value="check">
+                                            <label for="check4">Navigation</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <input id="check5" type="checkbox" name="check" value="check">
+                                            <label for="check5">Window Coverings</label>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="checkbox">
+                                            <input id="conditioning" type="checkbox" name="check" value="check">
+                                            <label for="conditioning">Air Conditioning</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <input id="microwave" type="checkbox" name="check" value="check">
+                                            <label for="microwave">Microwave</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <input id="outdoor" type="checkbox" name="check" value="check">
+                                            <label for="outdoor">Outdoor Shower</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <input id="alarm" type="checkbox" name="check" value="check">
+                                            <label for="alarm">Alarm System</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <input id="navigation" type="checkbox" name="check" value="check">
+                                            <label for="navigation">Navigation</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <input id="covering" type="checkbox" name="check" value="check">
+                                            <label for="covering">Window Covering</label>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="checkbox">
+                                            <input id="check13" type="checkbox" name="check" value="check">
+                                            <label for="check13">Laundry Service</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <input id="check88" type="checkbox" name="check" value="check">
+                                            <label for="check88">Food & Drinks</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <input id="check99" type="checkbox" name="check" value="check">
+                                            <label for="check99">Swimming Pool</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <input id="check43" type="checkbox" name="check" value="check">
+                                            <label for="check43">Alarm System</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <input id="check53" type="checkbox" name="check" value="check">
+                                            <label for="check53">Navigation</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <input id="check63" type="checkbox" name="check" value="check">
+                                            <label for="check63">Window Coverings</label>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="checkbox">
+                                            <input id="check41" type="checkbox" name="check" value="check">
+                                            <label for="check41">Laundry Service</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <input id="check42" type="checkbox" name="check" value="check">
+                                            <label for="check42">Food & Drinks</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <input id="check77" type="checkbox" name="check" value="check">
+                                            <label for="check77">Swimming Pool</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <input id="check66" type="checkbox" name="check" value="check">
+                                            <label for="check66">Alarm System</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <input id="check44" type="checkbox" name="check" value="check">
+                                            <label for="check44">Navigation</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <input id="check54" type="checkbox" name="check" value="check">
+                                            <label for="check54">Window Coverings</label>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="input-wrap ">
+                                    <button type="button" class="button-add"> Save changes </button>
+
+                                </div>
+
+
+                            </div>
+                            <div class="widget-dash-board pr-256 mb-75">
+                                <h4 class="title-add-tour mb-30">3. Pricing</h4>
+
+                                <div class="grid-input-2 mb-45">
+                                    <div class="input-wrap">
+                                        <label>Tour Price</label>
+                                        <input type="text" placeholder="$3215">
+                                    </div>
+                                    <div class="input-wrap">
+                                        <label>Tour Price</label>
+                                        <input type="text" placeholder="$3215">
+                                    </div>
+                                </div>
+                                <div class="input-wrap">
+                                    <label>Extra Price</label>
+                                    <div class="flex-two mb-32">
+                                        <div class="grid-input-3">
+                                            <input type="text" placeholder="Add Service Per Booking">
+                                            <input type="text" placeholder="Description">
+                                            <input type="text" placeholder="$27">
+                                        </div>
+                                        <div class="icon-delete-price">
+                                            <i class="icon-delete-1"></i>
+                                        </div>
+                                    </div>
+                                    <div class="flex-two">
+                                        <div class="grid-input-3">
+                                            <input type="text" placeholder="Add Service Per Booking">
+                                            <input type="text" placeholder="Description">
+                                            <input type="text" placeholder="$27">
+                                        </div>
+                                        <div class="icon-delete-price">
+                                            <i class="icon-delete-1"></i>
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+                            <div class="widget-dash-board pr-256">
+                                <h4 class="title-add-tour mb-30">3. Tour date & Time</h4>
+
+                                <div class="grid-input-2 mb-25">
+                                    <div class="input-wrap">
+                                        <label>Tour duration</label>
+                                        <div class="nice-select" tabindex="0">
+                                            <span class="current">2-4 days tour</span>
+                                            <ul class="list">
+                                                <li data-value="" class="option selected focus">2-4 days tour</li>
+                                                <li data-value="3-6" class="option">3-6 days tour</li>
+                                                <li data-value="4-8" class="option">4-8 days tour</li>
+                                                <li data-value="5-10" class="option">5-10 days tour</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="input-wrap">
+                                        <label>Start date</label>
+                                        <input type="date">
+                                    </div>
+                                </div>
+                                <div class="grid-input-2 mb-45">
+                                    <div class="input-wrap">
+                                        <label>Return Date</label>
+                                        <input type="date">
+                                    </div>
+                                    <div class="input-wrap">
+
+                                    </div>
+                                </div>
+                                <div class="input-wrap">
+                                    <button type="button" class="button-add"> Save changes</button>
+                                </div>
+
+                            </div>
+
+                        </form>
+
+
+                    </section>
+                </main>
+
+                <footer class="footer footer-dashboard">
+                    <div class="tf-container full">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <p class="text-white">Made with ❤️ by Themesflat. - Powered by Theme</p>
+                            </div>
+                            <div class="col-lg-6">
+                                <ul class="menu-footer flex-six">
+                                    <li>
+                                        <a href="#">Privacy & Policy</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Licensing</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Instruction</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </footer>
+
+                <!-- Bottom -->
+            </div>
+
+        </div>
+        <!-- /#page -->
+    </div>
+
+    <!-- Modal Popup Bid -->
+
+    <a id="scroll-top" class="button-go"></a>
+
+    <!-- Modal search-->
+    <div class="modal search-mobie fade" id="exampleModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modal-body">
+                    <form action="https://themesflat.co/" class="search-form-mobie">
+                        <div class="search">
+                            <i class="icon-circle2017"></i>
+                            <input type="search" placeholder="Search Travel" class="search-input" autocomplete="off">
+                            <button type="button">Search</button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            ...
+        </div>
+    </div>
+
+    <!-- Javascript -->
+    <script src="app/js/jquery.min.js"></script>
+    <script src="app/js/jquery.nice-select.min.js"></script>
+    <script src="app/js/bootstrap.min.js"></script>
+    <script src="app/js/tinymce/tinymce.min.js"></script>
+    <script src="app/js/tinymce/tinymce-custom.js"></script>
+    <script src="app/js/swiper-bundle.min.js"></script>
+    <script src="app/js/swiper.js"></script>
+    <script src="app/js/plugin.js"></script>
+    <script src="app/js/map.min.js"></script>
+    <script src="app/js/map.js"></script>
+    <script src="app/js/shortcodes.js"></script>
+    <script src="app/js/main.js"></script>
+
+</body>
+
+
+<!-- Mirrored from themesflat.co/html/vitour/add-tour.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 31 Dec 2024 13:48:06 GMT -->
+</html>
